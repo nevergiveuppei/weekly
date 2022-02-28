@@ -1,0 +1,2 @@
+# weekly
+my weekly status
