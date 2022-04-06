@@ -1,5 +1,5 @@
 
-##use def to compute n!
+##use for loop to compute n!
 
 def factorial(n):
     jj=1
