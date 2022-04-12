@@ -35,14 +35,14 @@ na=[]
 row_a=len(a)
 col_b=len(b[0])
 na=[[0]*col_b for ii in range(row_a)]
-print(na)
 
 for ii in range(len(a)):
-    na.append([])
     for jj in range(len(b[0])):
-        na[ii][jj]=0
         for kk in range(len(a[0])):
             na[ii][jj]=na[ii][jj]+a[ii][kk]*b[kk][jj]
         print(na[ii][jj],end=" ")
-    print("\n")
+    #print(end="\n")
+    print()
+print(na)
+
 
